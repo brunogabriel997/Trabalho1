@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="welcome" translatable="false">Welcome to the APP</string>
+    <string name="exemplo" translatable="false">Example</string>
 </resources>
