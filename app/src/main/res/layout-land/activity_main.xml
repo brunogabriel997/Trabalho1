@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -15,9 +15,9 @@
         tools:ignore="MissingConstraints">
 
         <TextView
+            android:id="@+id/txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:text="Bruno"/>
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Luis"/>
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
